@@ -98,6 +98,7 @@ decoder_2_4 d1(A[1:0],~A[2],Y[3:0]);
 decoder_2_4 d2(A[1:0],~A[2],Y[7:4]); 
 
 Endmodule
+
 **8-1 MULTIPLEXER**
 
 module mux(i,s,y); 
@@ -209,6 +210,7 @@ end
 else 
 
 begin 
+
 gt =  1'b0; 
 
 it = 1'b0; 
@@ -223,7 +225,7 @@ endmodule
 
 
   
-OUTPUT WAVEFORM
+**OUTPUT WAVEFORM**
 
 ![encoder](https://github.com/nithin2134/VLSI-LAB-EXP-2/assets/160302970/c5d48e14-3b54-4f94-b686-1a20d8083294)
 
@@ -237,6 +239,7 @@ OUTPUT WAVEFORM
 
 
 RESULT
+
 Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, 
 DEMULTIPLEXER, 2bit MAGNITUDE COMPARATOR using vivado 2023.2 is successfully compelted and executed.
 
