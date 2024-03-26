@@ -68,6 +68,7 @@ or (c,d[1],d[3],d[5],d[7]);
 endmodule
 
 **3-8 DECODER:**
+
 module decoder_2_4(A,E,Y); 
 
 input [1:0]A; 
@@ -97,7 +98,9 @@ decoder_2_4 d1(A[1:0],~A[2],Y[3:0]);
 decoder_2_4 d2(A[1:0],~A[2],Y[7:4]); 
 
 Endmodule
-**8-1 MULTIPLEXER**module mux(i,s,y); 
+**8-1 MULTIPLEXER**
+
+module mux(i,s,y); 
 
 input [7:0]i; 
 
@@ -132,7 +135,9 @@ endcase
 end 
 
 Endmodule 
+
 **1-8 DEMULTIPLEXER**
+
 module Demux1to8(d1,d2,d3,d4,d5,d6,d7,d8,i,s0,s1,s2); 
 
 input i,s0,s1,s2; 
@@ -164,6 +169,7 @@ and g10(d7,s0,s1,w3,i);
 and g11(d8,s0,s1,s2,i); 
 
 endmodule 
+
 **2 bit MAGNITUDE COMPARATOR**
 
 module mag(a,b,gt,it,eq); 
@@ -218,6 +224,7 @@ endmodule
 
   
 OUTPUT WAVEFORM
+
 ![encoder](https://github.com/nithin2134/VLSI-LAB-EXP-2/assets/160302970/c5d48e14-3b54-4f94-b686-1a20d8083294)
 
 ![decoder](https://github.com/nithin2134/VLSI-LAB-EXP-2/assets/160302970/e3d57430-44e3-42d1-b68f-bb3a8c5469ac)
